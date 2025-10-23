@@ -51,7 +51,7 @@ const Register = ({ setUser }) => {
                  value={formData.username}
                  onChange={handleChange}
                  required />
-            </div>
+            </div> 
             <div className='mb-4'>
                 <label className='block text-gray-600 text-sm font-medium mb-1'>Email</label>
                 <input type="email" className='w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-200 outline-none focus:border-blue-500'
